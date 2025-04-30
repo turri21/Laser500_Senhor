@@ -369,15 +369,15 @@ wire audio;
 // CASIN for tape monitor
 // CASOUT for save to tape wire
 //
-/*
+
 dac #(.C_bits(16)) dac_AUDIO_L
 (
 	.clk_i(F14M),
-   .res_n_i(pll_locked),	
+    .res_n_i(pll_locked),	
 	.dac_i({ BUZZER ^ CASIN ^ (~CASOUT), 15'b0000000 }),
 	.dac_o(audio)
 );
-*/
+
 
 always @(posedge F14M) begin
 	AUDIO_L <= audio;
