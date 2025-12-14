@@ -1,3 +1,8 @@
+=(Laser500_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+___
 # Laser 350/500/700 for MiSTer
 
 This is the MiSTer core of the VTech Laser 350/500/700 home computers.
